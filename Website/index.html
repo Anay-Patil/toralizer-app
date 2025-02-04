@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Toralizer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>Toralizer</h1>
+        <p id="typing-text"></p>
+    </header>
+
+    <section id="about">
+        <h2>What is Toralizer?</h2>
+        <p>
+            Toralizer is a Linux command-line tool that routes your commands through the Tor network, 
+            ensuring complete anonymity and security. With a single command, you gain the power of Tor’s 
+            privacy while executing tasks safely.
+        </p>
+    </section>
+
+    <section id="features">
+        <h2>Why Use Toralizer?</h2>
+        <div class="feature-grid">
+            <div class="feature-box">🔒 <strong>Privacy First</strong> – Runs commands through Tor, masking your real IP.</div>
+            <div class="feature-box">⚡ <strong>Easy to Use</strong> – Simple syntax with configurable options.</div>
+            <div class="feature-box">🔀 <strong>Flexible</strong> – Works with various CLI tools seamlessly.</div>
+            <div class="feature-box">🌍 <strong>Open Source</strong> – Transparency for security-conscious users.</div>
+        </div>
+    </section>
+
+    <section id="how-it-works">
+        <h2>How It Works</h2>
+        <pre>
+$ toralizer curl ifconfig.me
+# Returns your Tor exit node's IP instead of your real IP.
+        </pre>
+    </section>
+
+    <section id="team">
+        <h2>Who We Are</h2>
+        <p>
+            We are a group of privacy advocates and open-source contributors dedicated to enhancing internet security. 
+            Our mission is to provide users with tools that ensure anonymity without complexity.
+        </p>
+    </section>
+
+    <section id="cta">
+        <h2>Get Started</h2>
+        <a href="https://github.com/your-repo/toralizer" target="_blank" class="btn">Get Toralizer</a>
+    </section>
+
+    <footer>
+        <p>© 2025 Toralizer Project. Built for privacy and security.</p>
+    </footer>
+
+    <script>
+        var typed = new Typed("#typing-text", {
+            strings: ["Run commands securely through the Tor network.", "Because anonymity matters."],
+            typeSpeed: 50,
+            backSpeed: 30,
+            loop: true
+        });
+    </script>
+
+</body>
+</html>
+
