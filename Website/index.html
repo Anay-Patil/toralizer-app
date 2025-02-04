@@ -14,6 +14,11 @@
         <p id="typing-text"></p>
     </header>
 
+    <section id="cta">
+        <h2>Get Started</h2>
+        <a href="https://github.com/your-repo/toralizer" target="_blank" class="btn">Get Toralizer</a>
+    </section>
+
     <section id="about">
         <h2>What is Toralizer?</h2>
         <p>
@@ -49,24 +54,24 @@ $ toralizer curl ifconfig.me
         </p>
     </section>
 
-    <section id="cta">
-        <h2>Get Started</h2>
-        <a href="https://github.com/your-repo/toralizer" target="_blank" class="btn">Get Toralizer</a>
-    </section>
-
     <footer>
         <p>© 2025 Toralizer Project. Built for privacy and security.</p>
     </footer>
 
     <script>
         var typed = new Typed("#typing-text", {
-            strings: ["Run commands securely through the Tor network.", "Because anonymity matters."],
-            typeSpeed: 50,
-            backSpeed: 30,
-            loop: true
-        });
+    strings: [
+        "Run commands securely through the Tor network.",
+        "Because anonymity matters."
+    ],
+    typeSpeed: 50,
+    backSpeed: 30,
+    loop: true,
+    showCursor: true,
+    cursorChar: "|",  /* Ensures cursor stays inline */
+});
+
     </script>
 
 </body>
 </html>
-
